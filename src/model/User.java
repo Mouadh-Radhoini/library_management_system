@@ -39,4 +39,10 @@ public class User {
                 ", maxBooks=" + maxBooks +
                 '}';
     }
+
+
+    public ArrayList<Book> getBorrowedBooks() {
+        return borrowedBooks;
+    }
+
 }
